@@ -42,7 +42,6 @@ export const StyledLinksList = styled.ul`
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    
 
     .center{
         display: flex;
@@ -59,7 +58,7 @@ export const StyledLinksList = styled.ul`
         align-items: center;
         justify-content: flex-start;
         width: 400px;
-        background-color: rgba(245,40,145,0.5);
+        background-color: rgba(245,40,145,0.65);
         border-radius: 5px;
         
 

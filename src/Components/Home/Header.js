@@ -7,7 +7,6 @@ export default function Header(){
         <StyledUl className="ul">
             <Link to={'/'}>Home</Link>
             <Link to={'/about'}>Sobre mim</Link>
-            {/* <Link to={'/projects'}>Projetos</Link> */}
             <Link to={'/contact'}>Contato</Link>
         </StyledUl>
         <StyledLogo>

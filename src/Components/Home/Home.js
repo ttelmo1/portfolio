@@ -1,14 +1,12 @@
-import { StyledHeader, StyledHello, StyledHome, StyledImg, StyledMain, StyledProjects, StyledQuote, StyledUl } from "./style";
+import {StyledCv, StyledHello, StyledHome, StyledImg, StyledMain, StyledProjects, StyledQuote} from "./style";
 import profile from "./profile-pic.png"
 import Header from "./Header";
 import 'bootstrap/dist/css/bootstrap.css';
 import Carousel from 'react-bootstrap/Carousel';
-import trackit from "./trackit.png";
-import zap_recall from "./zap-recall.png";
-import cineflex from "./cineflex.png";
 import login_zap_recall from "./login_zap_recall.png";
 import login_cineflex from "./login_cineflex.png";
 import login_trackit from "./login_trackit.png";
+import Cv from "./Cv";
 
 
 
@@ -25,7 +23,6 @@ export default function Home() {
       <Header />
       <div className="main-container">
         <StyledMain>
-          {/* <div className="hello-container"> */}
             <div className="hello">
             <StyledImg src={profile} alt="gif" />
               <StyledHello>
@@ -34,10 +31,12 @@ export default function Home() {
                 <h1>e sou Desenvolvedor Front-End</h1>
               </StyledHello>
             </div>
+            <StyledCv>
+             <Cv />
+            </StyledCv>
             <StyledQuote>
               <p>Heart and soul in every line of code</p>
             </StyledQuote>
-          {/* </div> */}
         </StyledMain>
         <StyledProjects>
           <h1>Alguns de meus projetos:</h1>

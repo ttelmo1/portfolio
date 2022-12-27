@@ -38,7 +38,7 @@ export const StyledHeader = styled.div`
     top: 20px;
 
     cursor: default;
-`   
+`
 
 export const StyledLogo = styled.div`
     
@@ -107,7 +107,51 @@ export const StyledMain = styled.div`
         flex-direction: row;
         gap: 20px;
     }
-`   
+`
+export const StyledCv = styled.div`
+    .cv{
+    width: 100%;
+    width: 400px;
+    display: flex;
+    }
+
+
+    background-color: rgba(245,40,145,0.5);
+    border-radius: 5px;
+
+    img{
+        width: 100px;
+        height: 100px;
+        color: #FFF;        
+    }
+
+    a{
+        display: flex;
+        align-items: center;
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 20px;
+        font-weight: 700;
+        color: #fff;
+        text-decoration: none;
+        margin-left: 20px;
+        
+    }
+
+    img{
+        width: 100px;
+        height: 100px;
+        padding: 3px;
+    }
+
+    p{
+        border-bottom: 4px solid transparent;
+        transition: border-color 0.25s;
+    }
+
+    p:hover{
+        border-bottom: 4px solid #F5CF12;
+    }
+`
 
 export const StyledImg = styled.img`
     width: 200px;

@@ -88,7 +88,7 @@ export const StyledSkillsList = styled.ul`
         justify-content: center;
         align-items: center;
         color : #FFF;
-        background-color: rgba(245,40,145,0.5);
+        background-color: rgba(245,40,145,0.65);
         border-radius: 5px;
         padding: 3px;
 
