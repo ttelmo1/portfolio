@@ -182,6 +182,10 @@ export const StyledHello = styled.div`
     font-size: 35px;
     color: #fff;
 
+    h1{
+        font-size: 26px;
+    }
+
     p{
         font-size: 60px;
         font-weight: 700;
