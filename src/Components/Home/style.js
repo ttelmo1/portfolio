@@ -154,7 +154,7 @@ export const StyledCv = styled.div`
 `
 
 export const StyledImg = styled.img`
-    width: 200px;
+    width: 150px;
     height: 200px;
     border-radius: 50%;
     box-shadow:0 0 0 5px rgb(255 255 255 / 30%);

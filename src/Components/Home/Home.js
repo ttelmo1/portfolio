@@ -1,5 +1,5 @@
 import {StyledCv, StyledHello, StyledHome, StyledImg, StyledMain, StyledProjects, StyledQuote} from "./style";
-import profile from "./profile-pic.png"
+import profile from "./perfil_02.jpg";
 import Header from "./Header";
 import 'bootstrap/dist/css/bootstrap.css';
 import Carousel from 'react-bootstrap/Carousel';
