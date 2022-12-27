@@ -43,23 +43,14 @@ export default function Home() {
           <h1>Alguns de meus projetos:</h1>
           <div className="carousel-container">
             <Carousel>
-              <Carousel.Item interval={20000}>
+              <Carousel.Item interval={5000}>
                 <img className="d-block w-100" src={login_trackit} alt="First slide" />
-                <Carousel.Caption>
-                  <h3>TrackIt</h3>
-                </Carousel.Caption>
               </Carousel.Item>
-              <Carousel.Item interval={20000}>
+              <Carousel.Item interval={5000}>
                 <img className="d-block w-100" src={login_zap_recall} alt="Second slide" />
-                <Carousel.Caption>
-                  <h3>Zap Recall</h3>
-                </Carousel.Caption>
               </Carousel.Item>
-              <Carousel.Item interval={20000}>
+              <Carousel.Item interval={5000}>
                 <img className="d-block w-100" src={login_cineflex} alt="Third slide" />
-                <Carousel.Caption>
-                  <h3>Cineflex</h3>
-                </Carousel.Caption>
               </Carousel.Item>
             </Carousel>
           </div>
