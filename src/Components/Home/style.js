@@ -105,6 +105,7 @@ export const StyledMain = styled.div`
     .hello{
         display: flex;
         flex-direction: row;
+        gap: 20px;
     }
 `   
 
@@ -171,7 +172,7 @@ export const StyledQuote = styled.div`
 
 export const StyledProjects = styled.div`
     width: 100%;
-
+    margin-left: 100px;
     display: flex;
     justify-content: flex-start;
     align-items: center;

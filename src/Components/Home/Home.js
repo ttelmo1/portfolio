@@ -27,12 +27,12 @@ export default function Home() {
         <StyledMain>
           {/* <div className="hello-container"> */}
             <div className="hello">
+            <StyledImg src={profile} alt="gif" />
               <StyledHello>
                 <h1>Olá, eu sou o</h1>
                 <p>Telmo</p>
                 <h1>e sou Desenvolvedor Front-End</h1>
               </StyledHello>
-              <StyledImg src={profile} alt="gif" />
             </div>
             <StyledQuote>
               <p>Heart and soul in every line of code</p>
