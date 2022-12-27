@@ -193,6 +193,16 @@ export const StyledProjects = styled.div`
             width: 320px;
             height: 570px;
         }
+
+        .carousel-control-prev{
+            background-color: rgba(0, 0, 0, 0.5);
+            width: 7%;
+        }
+
+        .carousel-control-next{
+            background-color: rgba(0, 0, 0, 0.5);
+            width: 7%;
+        }
     }
 `
 
