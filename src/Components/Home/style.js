@@ -196,12 +196,22 @@ export const StyledProjects = styled.div`
 
         .carousel-control-prev{
             background-color: rgba(0, 0, 0, 0.5);
+            transition: background-color 0.25s;
             width: 7%;
         }
 
         .carousel-control-next{
             background-color: rgba(0, 0, 0, 0.5);
+            transition: background-color 0.25s;
             width: 7%;
+        }
+
+        .carousel-control-prev:hover{
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+
+        .carousel-control-next:hover{
+            background-color: rgba(0, 0, 0, 0.8);
         }
     }
 `
